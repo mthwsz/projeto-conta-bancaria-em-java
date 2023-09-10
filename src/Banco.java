@@ -42,7 +42,7 @@ public class Banco {
       System.out.println("Parece que você ainda não adicionou nenhum saldo! Deseja fazer um deposito? S/N");
       deposito = scan.next();
     } else if (saldo >= 1) {
-      System.out.println(saldo);
+      System.out.println("Você tem: " + saldo + "disponiveis.");
     };
 
     switch (deposito) {
